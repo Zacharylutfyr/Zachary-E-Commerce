@@ -11,3 +11,18 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
+
+.nav .container-fluid .container .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .container-fluid .container .navbar .nav-brand .navbar-brand {
+  font-weight: 700;
+}
+.nav .container-fluid .container .navbar .navbar-collapse .navbar-nav {
+  display: flex;
+  margin: auto;
+}
+.nav .container-fluid .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+}
