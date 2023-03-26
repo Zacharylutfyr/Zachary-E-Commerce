@@ -12,6 +12,39 @@ html {
   scroll-padding-top: 100px;
 }
 
+.heading-bar .container-fluid .container .row .social-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-bar .container-fluid .container .row .social-bar i {
+  cursor: pointer;
+}
+.heading-bar .container-fluid .container .row .search-bar .header-search-container .search-field {
+  width: 80%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.heading-bar .container-fluid .container .row .search-bar .header-search-container .search-icon {
+  cursor: pointer;
+}
+.heading-bar .container-fluid .container .row .language-bar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 17px;
+}
+.heading-bar .container-fluid .container .row .language-bar .language {
+  border: none;
+  color: gray;
+  cursor: pointer;
+}
+
 .nav .container-fluid .container .navbar {
   display: flex;
   justify-content: space-between;

@@ -21,23 +21,31 @@
     <div class="heading-bar">
       <div class="container-fluid">
         <div class="container">
-          <div class="row">
-            <div class="col-6 social-bar">
+          <div class="row mt-4">
+            <div class="col-3 social-bar">
               <i class="fa-solid fa-envelope px-2"></i>
               <i class="fa-solid fa-location-dot px-2"></i>
               <i class="fa-brands fa-instagram px-2"></i>
               <i class="fa-solid fa-phone px-2"></i>
               <i class="fa-brands fa-twitter px-2"></i>
             </div>
-            <div class="col-6 search-bar">
-              <form class="d-flex" role="search">
+            <div class="col-8 search-bar">
+              <div class="header-search-container">
                 <input
-                  class="form-control me-2"
                   type="search"
-                  placeholder="Search"
-                  aria-label="Search" />
-                <i class="fa-solid fa-magnifying-glass fa-rotate-90 fa-2x"></i>
-              </form>
+                  name="search"
+                  class="search-field"
+                  placeholder="Enter your product name..." />
+                <i class="fa-solid fa-search search-icon"></i>
+              </div>
+            </div>
+            <div class="col-1 language-bar">
+              <select name="language" class="language">
+                <option value="en-US">English</option>
+                <option value="id">Indonesia</option>
+                <option value="es-ES">Espa&ntilde;ol</option>
+                <option value="fr">Fran&ccedil;ais</option>
+              </select>
             </div>
           </div>
         </div>
